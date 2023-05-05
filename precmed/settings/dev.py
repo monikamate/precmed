@@ -18,3 +18,10 @@ DATABASES = {
         'PASSWORD' : 'zeon@123'
     }
 }
+
+CELERY_BROKER_URL = 'redis://localhost:6379/2'
+
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
+EMAIL_PORT = 587

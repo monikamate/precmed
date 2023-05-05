@@ -142,7 +142,7 @@ DEBUG_TOOLBAR_CONFIG = {
         'INTERCEPT_REDIRECTS': False,
     }
 
-CELERY_BROKER_URL = 'redis://localhost:6379/2'
+
 
 REST_FRAMEWORK = {
     'COERCE_DECIMAL_TO_STRING': False
