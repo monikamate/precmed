@@ -16,7 +16,7 @@ def analyze_files_task(sequence_id,reference_id):
     analysisStatus.save()
 
     # create file path
-    filePath = os.path.join(settings.MEDIA_ROOT,"sequencing","results","result_"+str(sequence_id)+"_"+str(reference_id)+".txt")
+    filePath = os.path.join(settings.STATIC_ROOT,"sequencing","results","result_"+str(sequence_id)+"_"+str(reference_id)+".txt")
 
     # simulate analysis
 
